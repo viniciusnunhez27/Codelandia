@@ -15,15 +15,16 @@
   font-family: "Lexend Deca", sans-serif;
 }
 
-body {
-  height: 1476px;
-
-}
 
 header {
   height: 250px;
   background: var(--linear) ;
 }
+
+.container { 
+   max-width: 1440px;
+}
+
 
 .cabecalho {
   display: flex;
