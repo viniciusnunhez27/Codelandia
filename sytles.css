@@ -33,22 +33,25 @@ header {
   color: var(--white);
   size: 24px;
   line-height: 30px;
+  margin: 0 auto;
 }
 
 .btn-buscar input {
   width: 900px;
   height: 65px;
-  margin-left: 270px;
+  margin-left: 502px;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
   padding-left: 64px;
   color: var(--white);
   size: 18px;
+ 
+
 }
 
 .img-busca img {
   position: absolute;
-  margin-left: 290px;
+  margin-left: 530px;
   margin-top: -43px;
 }
 
@@ -62,7 +65,7 @@ header {
 }
 
 .box-1 {
-  margin-left: 270px;
+  margin: 0 auto;
   margin-top: 100px;
 }
 
@@ -90,4 +93,18 @@ header {
   margin-left: 25px;
   line-height: 32px;
   size: 18px;
+}
+
+
+.post-final h1 {
+  margin-left: 25px;
+}
+
+.post-final p {
+  margin-top: 8px;
+  margin-left: 25px;
+  line-height: 32px;
+  size: 18px;
+  color: var(--text);
+  margin-bottom: 100px;
 }
