@@ -74,6 +74,39 @@ header {
   max-width: 460px;
 }
 
+.text-highlights h2 , p {
+  text-align:center;  
+}
+
+.text-highlights h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: var(--color-black-light);
+}
+
+.text-highlights p {
+  margin-top: 15px;
+  margin-bottom: 59px;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.grid-container  {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    gap: 20px;
+}
+
+.grid-item {
+  background-color: var(--color-white-200);
+}
+
+.grid-item img {
+  margin-left: 30px;
+  width:250px;
+  height: 150px;
+}
+
 
 
 
