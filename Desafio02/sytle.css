@@ -107,6 +107,16 @@ header {
   height: 150px;
 }
 
-
+footer p {
+  width: 1440px;
+  height: 60px;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top:100px;
+  color: var(--color-white);
+  background: var(--color-black-light)
+}
 
 
