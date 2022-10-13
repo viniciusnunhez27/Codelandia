@@ -21,6 +21,10 @@ html {
    font-size: 62.5%; 
 }
 
+img {
+  width: 100%;
+}
+
 
 
 header {
@@ -32,3 +36,44 @@ header {
   color: var(--color-white);
   background-color: var(--color-black-light);
 }
+
+
+.container {
+  width: 1440px;
+}
+
+.home {
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 47px;
+  color: var(--color-black-light);
+}
+
+.home {
+  position: relative;
+}
+
+.home-text {
+  position: absolute;
+  top: 274px;
+  left: 100px;
+}
+
+.home-text h1 {
+ font-size: 3.2rem;
+ font-weight: 700;
+ color: var(--color-white);
+}
+
+.home-text p {
+  margin-top: 19px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--color-white);
+  max-width: 460px;
+}
+
+
+
+
