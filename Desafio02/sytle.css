@@ -54,6 +54,10 @@ header {
   position: relative;
 }
 
+.home img {
+  filter:brightness(50%)
+}
+
 .home-text {
   position: absolute;
   top: 274px;
@@ -113,7 +117,7 @@ footer p {
   text-align: center;
   padding: 20px;
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight:500;
   margin-top:100px;
   color: var(--color-white);
   background: var(--color-black-light)
