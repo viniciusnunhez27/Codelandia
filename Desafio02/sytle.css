@@ -1,4 +1,11 @@
+:root {
+  --color-white:#F9F9F9;
+  --color-white-200:#EBE9EA;
+  --color-gray:#474747;
+  --color-black-light:#181818;
+  --color-background:#0C0C0C;
 
+}
 
 * {
 margin: 0;
@@ -14,6 +21,14 @@ html {
    font-size: 62.5%; 
 }
 
-.container {
-   max-width: 1440px;
+
+
+header {
+  text-align: center;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 31px;
+  color: var(--color-white);
+  background-color: var(--color-black-light);
 }
